@@ -6,7 +6,7 @@ terraform init
 
 
 <br /> Note: If you want to add new Key pair with terraform, update the Public key in aws_devkey.tf
-<br /> otherwise, update the existing key pair in ec2.tf file (key_name = "aws_dev_key")
+<br /> otherwise, update the existing key pair name in ec2.tf file (key_name = "aws_dev_key"). rename aws_devkey.tf file name extension like (aws_devkey.tf.bak) or delete.
 
 Update terraform.tfvars file with below details and run for AWS environment setup:
 ----------------------------------------------------------------------------------
