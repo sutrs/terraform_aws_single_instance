@@ -1,6 +1,6 @@
 terraform init
 terraform validate
-terraform plan			#default file will pick and execute "terraform.tfvars" 
+terraform plan			#default file will pick and execute "terraform.tfvars"
 terraform apply      # To setup AWS environment
 terraform destroy    # To destroy/remove AWS environment
 
