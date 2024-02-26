@@ -8,4 +8,4 @@ terraform init
 How to create an ssh key using windows:
 --------------------------------------
 ssh-keygen -t rsa -b 2048
-<br /> Note: update the .PUB KEY FILE in file "aws_devkey.tf"
+<br /> Note: update the .PUB KEY in file "aws_devkey.tf"
