@@ -1,0 +1,4 @@
+resource "aws_key_pair" "devkey" {
+  key_name   = "aws_dev_key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCj++Etk5jCtmrzcNzV9x4r+8W7eur5IaNaJKpooHEwIC1bw7eJgVNxX9AMFC1UcwzJaVULQg0MfmMCa70pbp1Yu8HoxeWevZTeXu/asMFnDiPdxconLYt1lC3EA99Nbr66/pTq/poinZrGt+7mMM/vV0YGqFYxDR8gCo1vJuhH5GNw3uiRspqVY/AAO5rtWiUmFAR8vTjLLnqTGlES/maW1mzw3Cf0925x1BwNrXigrAD6Xuu7iDalrtZZg4yBsMn8hSKJ3NyahPIKet34lAh9Lb1rrIyRmrZm9TGn8iWk3rEjkcYr1AFgogRrA5CV1VokNEBKHSh/FCc/a6gMKu0J raja tummalapalli@TRS"
+}
