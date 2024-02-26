@@ -5,13 +5,13 @@ terraform init
 <br /> terraform destroy  &emsp; # To destroy/remove AWS environment
 
 
+<br /> Note: If you want to add new Key pair with terraform, update the Public key in aws_devkey.tf
+<br /> otherwise, update the existing key pair in ec2.tf file (key_name = "aws_dev_key")
+
 Update terraform.tfvars file with below details and run for AWS environment setup:
 ----------------------------------------------------------------------------------
-aws_access_key = "Access_Key"
-aws_secret_key = "Secret_Key"
-
-Note: If you want to add new Key pair with terraform, update the Public key in aws_devkey.tf
-otherwise, update the existing key pair in ec2.tf file (key_name = "aws_dev_key")
+<br /> aws_access_key = "Access_Key"
+<br /> aws_secret_key = "Secret_Key"
 
 How to create an ssh key using windows:
 --------------------------------------
