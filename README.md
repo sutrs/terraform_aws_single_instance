@@ -10,6 +10,9 @@ Update terraform.tfvars file with below details and run for AWS environment setu
 aws_access_key = "Access_Key"
 aws_secret_key = "Secret_Key"
 
+Note: If you want to add new Key pair with terraform, update the Public key in aws_devkey.tf
+otherwise, update the existing key pair in ec2.tf file (key_name = "aws_dev_key")
+
 How to create an ssh key using windows:
 --------------------------------------
 ssh-keygen -t rsa -b 2048
